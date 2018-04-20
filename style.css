@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:400');
+@import url('https://fonts.googleapis.com/css?family=Pompiere');
+@import url('https://fonts.googleapis.com/css?family=Marvel');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background: url(prev.png) no-repeat 31% center fixed;
+    background-size: cover;
+    height: 100px;
+}
+
+.menu {
+    margin: 0 0 0 14px;
+    font-size: 34px;
+    display: inline;
+    font-family: Open Sans Condensed;
+    user-select: none;  
+}
+
+.underline {
+    border-bottom: 1px solid;
+}
+
+.menu:hover {
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
+.menu-item {
+    margin: 25px 0 0 30;
+    font-family: 'Pompiere';
+    font-size: 24px;
+    user-select: none;  
+}
+
+.display {
+    display: none;
+}
+
+.home, .info, .tests {
+    display: inline;
+    line-height: 1.9;
+    cursor: pointer;
+    color: black;
+}
+
+.home:hover, .info:hover, .tests:hover, .p1:hover, .c1:hover, .g1:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.title {
+    font-family: Pompiere;
+    text-align: center;
+    font-size: 50px;
+    cursor: default;
+    margin-top: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    padding: 60px 85px 60px 85px;
+    border-radius: 5px;
+    font-family: Marvel;
+    font-size: 36px;
+    margin: 0 20px;
+}
+
+.box a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.p1, .g1, .c1 {
+    color: black;
+    transition: all 450ms;
+}
+
+.sh1 {
+    box-shadow: -19px 13px 51px -1px rgba(224,224,224,0.65);
+    transition: all 500ms;
+}
+
+.sh1:hover {
+    box-shadow: -19px 13px 120px -1px rgba(224,224,224,0.75);
+    transition: all 500ms;
+}
+
+.sh2 {
+    box-shadow: 0 13px 23px -5px rgba(224,224,224,0.65);
+    transition: all 500ms;
+}
+
+.sh2:hover {
+    box-shadow: 0 13px 120px -5px rgba(224,224,224,0.75);
+    transition: all 500ms;
+}
+
+.sh3 {
+    box-shadow: 19px 13px 51px -1px rgba(224,224,224,0.65);
+    transition: all 500ms;
+}
+
+.sh3:hover {
+    box-shadow: 19px 13px 120px -1px rgba(224,224,224,0.75);
+    transition: all 500ms;
+}
+
+.info-title {
+    font-family: Open Sans Condensed;
+}
+
+.info-content {
+    font-family: Montserrat Alternates;
+    font-size: 19px;
+    position: absolute;
+    left: 6%;
+    right: 6%;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+
+.mt-32 {
+    margin-top: 32em;
+}
+
+.mt-33 {
+    margin-top: 33.4em;
+}
+
+.mt-34 {
+    margin-top: 34.9em;
+}
+
+.font {
+    font-family: Didact Gothic;
+    font-size: 23.3px;
+}
+
+.grad {
+    background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 950px) {
+    .box {
+        padding: 35px 50px 35px 50px;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .box {
+        padding: 25px 20px 25px 20px;
+        font-size: 21px;
+        margin: 0 7px;
+    }
+}
+
+@media screen and (max-height: 737px) {
+    .mt-32 {
+        margin-top: 28.5em;
+        font-size: 18px;
+    }
+    
+    .mt-33 {
+        margin-top: 29.9em;
+        font-size: 18px;
+    }
+    
+    .mt-34 {
+        margin-top: 36.1em;
+        font-size: 15.7px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .mt-32 {
+        margin-top: 25.6em;
+        font-size: 17px;
+    }
+    
+    .mt-33 {
+        margin-top: 27.6em;
+        font-size: 16.7px;
+    }
+    
+    .mt-34 {
+        margin-top: 34.6em;
+        font-size: 14.2px;
+    }
+}
+
+
+
+
+
