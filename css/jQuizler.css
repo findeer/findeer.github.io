@@ -89,7 +89,11 @@
     }
 
     .level {
-        color: #8bd183
+        color: #8bd183;
+    }
+
+    .level2 {
+        color: #ffca3a;
     }
 
     .btn2 {
