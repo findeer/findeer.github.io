@@ -17,19 +17,29 @@
 
 .menu {
     margin: 0 0 0 14px;
-    font-size: 34px;
+    font-size: 38px;
     display: inline;
     font-family: Open Sans Condensed;
-    user-select: none;  
+    user-select: none;
+}
+
+.span1 {
+    color: #5e5e5e;
+    transition: all 1s;
+}
+
+.span1:hover {
+    color: black;
 }
 
 .underline {
     border-bottom: 1px solid;
+    color: black;
 }
 
 .menu:hover {
-    border-bottom: 1px solid;
     cursor: pointer;
+    border-bottom: solid 1px;
 }
 
 .menu-item {
@@ -215,6 +225,7 @@
         font-size: 14.2px;
     }
 }
+
 
 
 

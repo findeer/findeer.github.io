@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('.menu').on('click', function() {
         $('.menu-item').toggleClass('display');
-        $('.menu').toggleClass('underline');
+        $('.span1').toggleClass('underline');
     })
     
     $( ".home" ).hover(
