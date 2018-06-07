@@ -10,9 +10,10 @@
 }
 
 .bg {
-    background: url(prev.png) no-repeat 31% center fixed;
+    background: url(prev.svg) no-repeat 31% center fixed;
     background-size: cover;
     height: 100px;
+    transition: all 400ms;
 }
 
 .menu {
@@ -165,10 +166,12 @@
 }
 
 .grad {
-    background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+    font-size: 20px;
+    display: inline;
+    text-align: center;
+    background: -webkit-linear-gradient(#91bbff, #0061ff);  
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold;
 }
 
 @media screen and (max-width: 950px) {

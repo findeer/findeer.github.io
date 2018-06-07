@@ -25,4 +25,11 @@ $(document).ready(function() {
         $( this ).find( "span:last" ).remove();
       }
     );
+    $( ".nm" ).hover(
+      function() {
+        $( this ).append( $( "<span>  →</span>" ) );
+      }, function() {
+        $( this ).find( "span:last" ).remove();
+      }
+    );
 })
